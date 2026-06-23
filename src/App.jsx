@@ -4,6 +4,7 @@ import Hero from "./components/Hero.jsx";
 import CategoryChips from "./components/CategoryChips.jsx";
 import MenuSectionList from "./components/MenuSectionList.jsx";
 import { menuSections } from "./data/menu.js";
+import SplashScreen from "./components/SplashScreen.jsx";
 
 const filterOptions = [
   { id: "todas", label: "Todas" },
@@ -13,6 +14,7 @@ const filterOptions = [
 export default function App() {
   const [activeCategory, setActiveCategory] = useState("todas");
   const [cartCount, setCartCount] = useState(0);
+  const [showSplash, setShowSplash] = useState(true);
 
   const filteredSections = useMemo(() => {
     if (activeCategory === "todas") return menuSections;
@@ -24,20 +26,22 @@ export default function App() {
   };
 
   return (
-    <div className="bg-surface font-body-md text-on-surface min-h-screen">
-      <Header />
+    <>
+      {showSplash && <SplashScreen onFinish={() => setShowSplash(false)} />}
 
-      <main className="pt-20 pb-32 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-        <Hero />
-        <CategoryChips
-          categories={filterOptions}
-          activeCategory={activeCategory}
-          onSelect={setActiveCategory}
-        />
-        <MenuSectionList sections={filteredSections} onAdd={handleAddToCart} />
-      </main>
+      <div className="bg-surface font-body-md text-on-surface min-h-screen">
+        <Header />
 
-      
-    </div>
+        <main className="pt-20 pb-32 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+          <Hero />
+          <CategoryChips
+            categories={filterOptions}
+            activeCategory={activeCategory}
+            onSelect={setActiveCategory}
+          />
+          <MenuSectionList sections={filteredSections} onAdd={handleAddToCart} />
+        </main>
+      </div>
+    </>
   );
 }
