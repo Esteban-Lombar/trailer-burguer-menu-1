@@ -69,6 +69,20 @@ export const menuSections = [
           comboCompleto: 30000,
         },
       },
+      {
+        id: "hamburgusa-doble",
+        name: "HAMBURGUESA DOBLE DE CLASICA",
+        description: "TOCINETA ASADA",
+        details:
+          "Doble carne 100% de res, Pan brioche asado a la parrilla, Queso americano, Tocineta asada, Lechuga, Tomate Cebolla.",
+        image: "/productos/hamburguesa-doble-asada.png",
+        prices: {
+          sola: 25000,
+          conPapas: 30000,
+          conBebida: 29000,
+          comboCompleto: 30000,
+        },
+      },
     ],
   },
   {
