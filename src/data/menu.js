@@ -13,12 +13,26 @@ export const menuSections = [
     title: "Hamburguesas",
     items: [
       {
+        id: "sangre-azul",
+        name: "HAMBURGUESA SANGRE AZUL",
+        description: "QUESO AZUL",
+        details:
+          "Carne 100% de res, Pan brioche asado a la parrilla, Queso americano, queso azul fresco, Lechuga, Tomate Cebolla.",
+        image: "/productos/hamburguesaQuesoAzul1.jpeg",
+        prices: {
+          sola: 25000,
+          conPapas: 30000,
+          conBebida: 29000,
+          comboCompleto: 30000,
+        },
+      },
+      {
         id: "hamburguesa-clasica",
         name: "HAMBURGUESA CLÁSICA",
         description: "TOCINETA ASADA",
         details:
           "Carne 100% de res, Pan brioche asado a la parrilla, Queso americano, tocineta asada crocante, Lechuga, Tomate Cebolla.",
-        image: "/productos/hamburguesa-asada-normal.png",
+        image: "/productos/hamburguesaAsadasaNormal2.jpeg",
         prices: {
           sola: 20000,
           conPapas: 25000,
@@ -32,7 +46,7 @@ export const menuSections = [
         description: "MERMELADA DE TOCINETA",
         details:
           "Carne 100% de res, Pan brioche asado a la parrilla, Queso americano, tocineta caramelizada, Lechuga, Tomate Cebolla.",
-        image: "/productos/hamburguesa-caramelizada-normal.png",
+        image: "/productos/hamburgusaCaramelizadaNormal2.jpeg",
         prices: {
           sola: 20000,
           conPapas: 25000,
@@ -40,27 +54,14 @@ export const menuSections = [
           comboCompleto: 26000,
         },
       },
-      {
-        id: "hamburgusa-doble",
-        name: "HAMBURGUESA DOBLE CLASICA",
-        description: "TOCINETA ASADA",
-        details:
-          "Doble carne 100% de res, Pan brioche asado a la parrilla, Queso americano, tocineta asada crocante, Lechuga, Tomate Cebolla.",
-        image: "/productos/hamburguesa-doble-asada.png",
-        prices: {
-          sola: 25000,
-          conPapas: 30000,
-          conBebida: 29000,
-          comboCompleto: 30000,
-        },
-      },
+      
       {
         id: "hamburgusa-doble",
         name: "HAMBURGUESA DOBLE DE LA CASA",
         description: "MERMELADA DE TOCINETA",
         details:
           "Doble carne 100% de res, Pan brioche asado a la parrilla, Queso americano, Tocineta caramelizada, Lechuga, Tomate Cebolla.",
-        image: "/productos/hamburguesa-doble-caramelizada.png",
+        image: "/productos/dobleCaramelizada2.jpeg",
         prices: {
           sola: 25000,
           conPapas: 30000,
@@ -78,7 +79,7 @@ export const menuSections = [
         id: "papas-raras",
         name: "PAPAS RARAS",
         description: "Porción de papas fritas a la francesa con queso chedar derretido y tocineta caramelizada",
-        image: "/productos/papas-raras.png",
+        image: "/productos/papasRaras2.jpeg",
         price: 18000,
       },
       {
@@ -89,6 +90,23 @@ export const menuSections = [
         price: 5000,
       },
     ],
+  },
+  {
+    id: "costillas",
+    title: "Costillas",
+    items: [
+      {
+         id: "costillas",
+        name: "COSTILLAS BBQ",
+        description: "Costillas de cerdo bañadas en salsa BBQ casera, servidas con papas a la francesa crujientes junto a la bebida de tu elección. ",
+        image: "/productos/costillasBbq.jpeg",
+        prices: {
+          conPapas: 26000,
+          conBebida: 30000,
+        },
+      },
+    ]
+
   },
   {
     id: "bebidas",
