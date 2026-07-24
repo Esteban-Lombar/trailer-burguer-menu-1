@@ -63,10 +63,10 @@ export const menuSections = [
           "Doble carne 100% de res, Pan brioche asado a la parrilla, Queso americano, Tocineta caramelizada, Lechuga, Tomate Cebolla.",
         image: "/productos/dobleCaramelizada2.jpeg",
         prices: {
-          sola: 25000,
-          conPapas: 30000,
-          conBebida: 29000,
-          comboCompleto: 30000,
+          sola: 28000,
+          conPapas: 33000,
+          conBebida: 32000,
+          comboCompleto: 33000,
         },
       },
       {
@@ -77,10 +77,10 @@ export const menuSections = [
           "Doble carne 100% de res, Pan brioche asado a la parrilla, Queso americano, Tocineta asada, Lechuga, Tomate Cebolla.",
         image: "/productos/hamburguesa-doble-asada.png",
         prices: {
-          sola: 25000,
-          conPapas: 30000,
-          conBebida: 29000,
-          comboCompleto: 30000,
+          sola: 28000,
+          conPapas: 33000,
+          conBebida: 32000,
+          comboCompleto: 33000,
         },
       },
     ],
@@ -99,7 +99,7 @@ export const menuSections = [
       {
         id: "porcion-papas",
         name: "PORCION DE PAPAS FRITAS",
-        description: "una porcion de nuestras delicioasas papas fritas a la francesa",
+        description: " 200g de nuestra porción de nuestras delicioasas papas fritas a la francesa",
         image: "/productos/porcion-papas-normales.png",
         price: 5000,
       },
@@ -115,8 +115,8 @@ export const menuSections = [
         description: "Costillas de cerdo bañadas en salsa BBQ casera, servidas con papas a la francesa crujientes junto a la bebida de tu elección. ",
         image: "/productos/costillasBbq.jpeg",
         prices: {
-          conPapas: 26000,
-          conBebida: 30000,
+          conPapas: 23000,
+          conBebida: 27000,
         },
       },
     ]

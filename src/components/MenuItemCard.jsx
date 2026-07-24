@@ -1,6 +1,6 @@
 const priceLabels = {
   sola: "Sola",
-  conPapas: "Con papas",
+  conPapas: "Con papas (200g)",
   conBebida: "Con bebida",
   comboCompleto: "Combo completo",
 };
