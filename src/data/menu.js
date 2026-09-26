@@ -105,23 +105,23 @@ export const menuSections = [
       },
     ],
   },
-  {
-    id: "costillas",
-    title: "Costillas",
-    items: [
-      {
-         id: "costillas",
-        name: "COSTILLAS BBQ",
-        description: "Costillas de cerdo bañadas en salsa BBQ casera, servidas con papas a la francesa crujientes junto a la bebida de tu elección. ",
-        image: "/productos/costillasBbq.jpeg",
-        prices: {
-          conPapas: 23000,
-          conBebida: 27000,
-        },
-      },
-    ]
+ // {
+  //  id: "costillas",
+  //  title: "Costillas",
+   // items: [
+  //    {
+  //       id: "costillas",
+  //      name: "COSTILLAS BBQ",
+  //      description: "Costillas de cerdo bañadas en salsa BBQ casera, servidas con papas a la francesa crujientes junto a la bebida de tu elección. ",
+  //      image: "/productos/costillasBbq.jpeg",
+  //      prices: {
+  //        conPapas: 23000,
+  //        conBebida: 27000,
+  //      },
+  //    },
+ //   ]
 
-  },
+ // },
   {
     id: "bebidas",
     title: "Bebidas",
